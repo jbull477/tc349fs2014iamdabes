@@ -122,6 +122,10 @@ textarea {
     padding: 2em;
    }
 
+   #feed{
+    margin-top: 30px;
+   }
+
    #feed li{
     margin-bottom: 1em;
     border: 1px solid #bdc3c7;
@@ -178,6 +182,26 @@ textarea {
 
    .alert{
     color: #d35400;
+   }
+
+   .toggle-button{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border: 1px solid #d9ddde;
+    border-radius: 4px;
+    color: #2980b9;
+    font-size: 1.4em;
+   }
+
+   .toggle-button:hover{
+    box-shadow: 0 0 10px rgba(41, 128, 185, .3);
+   }
+
+   .toggle-button.selected{
+    background: #2980b9;
+    color: #ffffff;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, .3);
    }
 
 
