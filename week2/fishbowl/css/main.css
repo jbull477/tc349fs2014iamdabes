@@ -122,28 +122,63 @@ textarea {
     padding: 2em;
    }
 
+   #feed li{
+    margin-bottom: 1em;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+   }
+
+   #feed li > *{
+    display: inline-block;
+    margin: 0;
+    font-size: 1em;
+   }
+
+   #feed li .user-count{
+    background: #bdc3c7;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+   }
+
+   #feed li h2{
+    margin-left: 12px;
+   }
+
+   #feed li .chat-meta{
+    color: #7f8c8d;
+   }
+
+   #feed li .username{
+
+   }
+
+   #feed li .countdown{
+    float: right;
+    padding: 11px 15px;
+    font-weight: bold;
+   }
+
    .toggle-button{
     display: inline-block;
     padding: 15px 20px;
     background: #ccc;
    }
 
-   #feed li{
-    padding: .5em;
-    margin-bottom: 1em;
-    border: 1px solid #999;
-    border-radius: 4px;
-    background: #fff;
+   .ready{
+    color: #27ae60;
    }
 
+   .warning{
+    color: #f39c12;
+   }
 
-
-
-
-
-
-
-
+   .alert{
+    color: #d35400;
+   }
 
 
 
