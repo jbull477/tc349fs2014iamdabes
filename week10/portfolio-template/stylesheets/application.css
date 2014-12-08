@@ -1,7 +1,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* line 7, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 7, ../sass/components/_base.scss */
 body {
   background-color: #cccccc;
 }
@@ -15,7 +15,7 @@ body {
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 27, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 27, ../sass/components/_base.scss */
 html,
 button,
 input,
@@ -24,7 +24,7 @@ textarea {
   color: #222;
 }
 
-/* line 31, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 31, ../sass/components/_base.scss */
 html {
   font-size: 1em;
   line-height: 1.4;
@@ -35,13 +35,13 @@ html {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-/* line 42, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 42, ../sass/components/_base.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 47, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 47, ../sass/components/_base.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -50,7 +50,7 @@ html {
 /*
  * A better looking default horizontal rule
  */
-/* line 56, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 56, ../sass/components/_base.scss */
 hr {
   display: block;
   height: 1px;
@@ -64,7 +64,7 @@ hr {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-/* line 73, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 73, ../sass/components/_base.scss */
 audio,
 canvas,
 img,
@@ -75,7 +75,7 @@ video {
 /*
  * Remove default fieldset styles.
  */
-/* line 81, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 81, ../sass/components/_base.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -85,7 +85,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 91, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 91, ../sass/components/_base.scss */
 textarea {
   resize: vertical;
 }
@@ -93,7 +93,7 @@ textarea {
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
-/* line 99, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 99, ../sass/components/_base.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -202,7 +202,7 @@ textarea {
 /*
  * Image replacement
  */
-/* line 225, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 225, ../sass/components/_base.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -211,7 +211,7 @@ textarea {
   *text-indent: -9999px;
 }
 
-/* line 233, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 233, ../sass/components/_base.scss */
 .ir:before {
   content: "";
   display: block;
@@ -222,7 +222,7 @@ textarea {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 244, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 244, ../sass/components/_base.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -231,7 +231,7 @@ textarea {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 253, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 253, ../sass/components/_base.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -247,7 +247,7 @@ textarea {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 270, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 270, ../sass/components/_base.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -261,7 +261,7 @@ textarea {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 283, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 283, ../sass/components/_base.scss */
 .invisible {
   visibility: hidden;
 }
@@ -277,7 +277,7 @@ textarea {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 300, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 300, ../sass/components/_base.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -286,7 +286,7 @@ textarea {
   /* 2 */
 }
 
-/* line 305, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 305, ../sass/components/_base.scss */
 .clearfix:after {
   clear: both;
 }
@@ -295,7 +295,7 @@ textarea {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 314, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+/* line 314, ../sass/components/_base.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -316,7 +316,7 @@ textarea {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 341, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+  /* line 341, ../sass/components/_base.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -325,18 +325,18 @@ textarea {
     text-shadow: none !important;
   }
 
-  /* line 349, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+  /* line 349, ../sass/components/_base.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 353, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+  /* line 353, ../sass/components/_base.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 357, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+  /* line 357, ../sass/components/_base.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -344,33 +344,33 @@ textarea {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 367, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+  /* line 367, ../sass/components/_base.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 372, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+  /* line 372, ../sass/components/_base.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 377, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+  /* line 377, ../sass/components/_base.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 382, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+  /* line 382, ../sass/components/_base.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 386, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+  /* line 386, ../sass/components/_base.scss */
   img {
     max-width: 100% !important;
   }
@@ -379,7 +379,7 @@ textarea {
     margin: 0.5cm;
 }
 
-  /* line 396, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+  /* line 396, ../sass/components/_base.scss */
   p,
   h2,
   h3 {
@@ -387,26 +387,35 @@ textarea {
     widows: 3;
   }
 
-  /* line 402, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_base.scss */
+  /* line 402, ../sass/components/_base.scss */
   h2,
   h3 {
     page-break-after: avoid;
   }
 }
-/* line 4, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_mast-head.scss */
+/* line 4, ../sass/components/_mast-head.scss */
 .mast-head {
   background-color: #b3b3b3;
   padding: 0;
 }
-/* line 8, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_mast-head.scss */
+/* line 8, ../sass/components/_mast-head.scss */
 .mast-head img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 200px;
   padding: 15px 0px 15px 0px;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
-/* line 16, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_mast-head.scss */
+/* line 18, ../sass/components/_mast-head.scss */
+.mast-head img:hover {
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+/* line 26, ../sass/components/_mast-head.scss */
 .mast-head p {
   text-align: center;
   padding: 15px 0px 15px 0px;
@@ -414,7 +423,7 @@ textarea {
   text-shadow: rgba(0, 0, 255, 0.2) 1px 1px 0, rgba(0, 0, 255, 0.2) 2px 2px 0, rgba(0, 0, 255, 0.2) 3px 3px 0;
 }
 
-/* line 4, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_media-grid.scss */
+/* line 4, ../sass/components/_media-grid.scss */
 .media-grid {
   list-style-type: none;
   background: #846f8d;
@@ -423,30 +432,30 @@ textarea {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 11, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_media-grid.scss */
+/* line 11, ../sass/components/_media-grid.scss */
 .media-grid li {
   background: #482955;
   float: left;
   height: 200px;
   width: 20%;
 }
-/* line 18, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_media-grid.scss */
+/* line 18, ../sass/components/_media-grid.scss */
 .media-grid li:nth-child(even) {
   background: #846f8d;
 }
-/* line 22, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_media-grid.scss */
+/* line 22, ../sass/components/_media-grid.scss */
 .media-grid img {
   height: 200px;
   width: 100%;
 }
 
-/* line 4, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_hero.scss */
+/* line 4, ../sass/components/_hero.scss */
 .hero {
   clear: both;
   background: #b3b3b3;
   padding: 0;
 }
-/* line 10, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_hero.scss */
+/* line 10, ../sass/components/_hero.scss */
 .hero img {
   display: block;
   margin-left: auto;
@@ -458,13 +467,13 @@ textarea {
   box-shadow: rgba(0, 0, 255, 0.4) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
 }
 
-/* line 3, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_about-me.scss */
+/* line 3, ../sass/components/_about-me.scss */
 .about-me {
   clear: both;
   background: #846f8d;
   padding: 0;
 }
-/* line 8, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_about-me.scss */
+/* line 8, ../sass/components/_about-me.scss */
 .about-me img {
   display: block;
   margin-left: auto;
@@ -473,22 +482,22 @@ textarea {
   padding-top: 30px;
 }
 
-/* line 3, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_about-me-col-1.scss */
+/* line 3, ../sass/components/_about-me-col-1.scss */
 .about-me-col-1 {
   float: left;
   width: 49%;
 }
-/* line 7, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_about-me-col-1.scss */
+/* line 7, ../sass/components/_about-me-col-1.scss */
 .about-me-col-1 p {
   padding: 9px 17px 30px 17px;
 }
 
-/* line 3, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_about-me-col-2.scss */
+/* line 3, ../sass/components/_about-me-col-2.scss */
 .about-me-col-2 {
   float: right;
   width: 49%;
 }
-/* line 7, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/week9/portfolio-template/sass/components/_about-me-col-2.scss */
+/* line 7, ../sass/components/_about-me-col-2.scss */
 .about-me-col-2 p {
   padding: 100px 17px 0px 17px;
   margin: 0;
