@@ -1,0 +1,22 @@
+@import '_colors.scss';
+@import "compass/css3/text-shadow";
+
+.mast-head {
+	background-color: $mast-head-back;
+	padding: 0;
+
+	img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:200px;
+	padding: 15px 0px 15px 0px;
+	}
+
+	p{
+	text-align: center;
+  padding: 15px 0px 15px 0px;
+  margin: 0;
+   @include text-shadow(rgba(blue, 0.2) 1px 1px 0, rgba(blue, 0.2) 2px 2px 0, rgba(blue, 0.2) 3px 3px 0);
+	}
+}

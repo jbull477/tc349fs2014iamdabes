@@ -1,0 +1,27 @@
+@import '_colors.scss';
+@import "compass/css3/opacity";
+
+.media-grid {
+  list-style-type: none;
+  background: $media-grid-back;
+  margin: 0;
+  padding: 0;
+  @include opacity(0.8);
+
+  li{
+  background: $media-grid-li-back;
+  float: left;
+  height: 200px;
+  width: 20%;
+  }
+
+li:nth-child(even) {
+  background: $media-grid-li-nth-back;
+}
+
+img{
+  height: 200px;
+  width: 100%;
+}
+
+}
