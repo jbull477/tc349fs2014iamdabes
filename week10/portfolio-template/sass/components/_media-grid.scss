@@ -11,8 +11,8 @@
   li{
   background: $media-grid-li-back;
   float: left;
-  height: 200px;
-  width: 20%;
+  height: 400px;
+  width: 33%;
   }
 
 li:nth-child(even) {
@@ -20,7 +20,7 @@ li:nth-child(even) {
 }
 
 img{
-  height: 200px;
+  height: 400px;
   width: 100%;
 }
 
