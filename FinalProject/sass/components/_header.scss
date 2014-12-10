@@ -1,0 +1,46 @@
+#header 
+{
+  background-color: #666;
+  color: #FFF;
+  border-radius: 15px;
+}
+
+#logo 
+{
+  font-size: 30px;  
+  line-height: 40px;    
+  padding: 5px;
+  background: #006600;
+  text-align: center;
+}
+
+#navWrap 
+{
+  height: 40px;
+  z-index: 50;
+}
+
+#nav 
+{
+  background-color:#006600;
+  height:40px;
+  z-index: 10; /*Puts the nav bar in front of the picture slides*/
+
+  ul 
+  {
+    font-family: Arial, Verdana;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 10; /*Puts the nav bar in front of the picture slides*/
+  }
+}
+
+.bigNum 
+{
+  font-size: 20px;
+  color: #000;
+  background: #FFF;
+  padding: 2px;    
+}

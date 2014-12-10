@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+body 
+{
+  background-color: #003300;  
+  color: #3A3A3A;
+  font: 12px/1.4em Arial,sans-serif;
+  min-width:1200px; /* suppose you want minimun width of 1000px */
+  width: auto !important;  /* Firefox will set width as auto */
+  width:1200px;             /* As IE ignores !important it will set width as 1000px; */
+}
+
+nav 
+{
+  background-color:#006600;
+  height:40px;
+
+  ul 
+  {
+    font-family: Arial, Verdana;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li
+    {
+      display: block;
+      position: relative;
+      float: left;
+
+      a
+      {
+        display: block;
+        text-decoration: none;
+        padding: 7px 15px 3px 15px;
+        background: #006600;
+        color: #ffffff;  
+        margin-left: 1px;
+        white-space: nowrap;
+        height:25px; /* Width and height of top-level nav items */
+        width:115px;
+        text-align:center;
+
+        &:hover
+        {
+          background: #197519; 
+        }
+      }
+
+      ul
+      {
+        li
+        {
+          a
+          {
+            text-align:left; /* Top-level items are centered, but nested list items are left-aligned */
+          }
+        }
+      }
+    }
+  }
+
+  li
+  { 
+    ul 
+    { 
+      display: none; 
+    }
+
+    &:hover
+    {
+      ul
+      {
+        display: block;
+        position: absolute;
+        height:30px;
+      }
+
+      li
+      {
+        float: none;
+        font-size: 11px;
+
+        a
+        {
+          background: #197519; 
+          height:30px; /* Height of lower-level nav items is shorter than main level */
+
+          &:hover
+          {
+            background: #308330; 
+          }
+        }
+      }
+    }
+  }
+}
+
+br.clearLeft {
+   clear: left;        
+}
+
+p{
+  font-size: 15px;
+}
+
+#wrap {
+   margin: 10px auto;        
+    background: #006600;
+    padding: 10px;
+    width: 67%;
+    border-radius: 15px;
+}
+
+main {
+    background: #F5F5F5;
+}
+
+#footer{
+  text-align: center;
+  color: white; /*Applies to any text*/
+}
+
+#page_title{
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#page_container{
+  padding: 15px;
+
+  img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px; 
+  }
+
+  h2{
+  font-size: 25px;
+}
+}
