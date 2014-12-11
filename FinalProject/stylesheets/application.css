@@ -1,25 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  /* line 7, ../sass/components/_base.scss */
-  p {
-    font-size: 22px;
-  }
-}
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-  /* line 15, ../sass/components/_base.scss */
-  #wrap {
-    width: 100%;
-  }
-
-  /* line 18, ../sass/components/_base.scss */
-  p {
-    font-size: 22px;
-  }
-}
-/* Landscape phones and down */
-/* line 30, ../sass/components/_base.scss */
+/* line 6, ../sass/components/_base.scss */
 body {
   background-color: #003300;
   color: #3A3A3A;
@@ -32,12 +12,12 @@ body {
   /* As IE ignores !important it will set width as 1000px; */
 }
 
-/* line 40, ../sass/components/_base.scss */
+/* line 16, ../sass/components/_base.scss */
 nav {
   background-color: #006600;
   height: 40px;
 }
-/* line 45, ../sass/components/_base.scss */
+/* line 21, ../sass/components/_base.scss */
 nav ul {
   font-family: Arial, Verdana;
   font-size: 18px;
@@ -45,13 +25,13 @@ nav ul {
   padding: 0;
   list-style: none;
 }
-/* line 53, ../sass/components/_base.scss */
+/* line 29, ../sass/components/_base.scss */
 nav ul li {
   display: block;
   position: relative;
   float: left;
 }
-/* line 59, ../sass/components/_base.scss */
+/* line 35, ../sass/components/_base.scss */
 nav ul li a {
   display: block;
   text-decoration: none;
@@ -65,52 +45,52 @@ nav ul li a {
   width: 115px;
   text-align: center;
 }
-/* line 72, ../sass/components/_base.scss */
+/* line 48, ../sass/components/_base.scss */
 nav ul li a:hover {
   background: #197519;
 }
-/* line 82, ../sass/components/_base.scss */
+/* line 58, ../sass/components/_base.scss */
 nav ul li ul li a {
   text-align: left;
   /* Top-level items are centered, but nested list items are left-aligned */
 }
-/* line 93, ../sass/components/_base.scss */
+/* line 69, ../sass/components/_base.scss */
 nav li ul {
   display: none;
 }
-/* line 100, ../sass/components/_base.scss */
+/* line 76, ../sass/components/_base.scss */
 nav li:hover ul {
   display: block;
   position: absolute;
   height: 30px;
 }
-/* line 107, ../sass/components/_base.scss */
+/* line 83, ../sass/components/_base.scss */
 nav li:hover li {
   float: none;
   font-size: 11px;
 }
-/* line 112, ../sass/components/_base.scss */
+/* line 88, ../sass/components/_base.scss */
 nav li:hover li a {
   background: #197519;
   height: 30px;
   /* Height of lower-level nav items is shorter than main level */
 }
-/* line 117, ../sass/components/_base.scss */
+/* line 93, ../sass/components/_base.scss */
 nav li:hover li a:hover {
   background: #308330;
 }
 
-/* line 126, ../sass/components/_base.scss */
+/* line 102, ../sass/components/_base.scss */
 br.clearLeft {
   clear: left;
 }
 
-/* line 130, ../sass/components/_base.scss */
+/* line 106, ../sass/components/_base.scss */
 p {
   font-size: 15px;
 }
 
-/* line 134, ../sass/components/_base.scss */
+/* line 110, ../sass/components/_base.scss */
 #wrap {
   margin: 10px auto;
   background: #006600;
@@ -118,38 +98,46 @@ p {
   width: 67%;
   border-radius: 15px;
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* line 110, ../sass/components/_base.scss */
+  #wrap {
+    /* iPhone, Android rules here */
+    width: 100%;
+    float: none;
+  }
+}
 
-/* line 142, ../sass/components/_base.scss */
+/* line 124, ../sass/components/_base.scss */
 main {
   background: #F5F5F5;
 }
 
-/* line 146, ../sass/components/_base.scss */
+/* line 128, ../sass/components/_base.scss */
 #footer {
   text-align: center;
   color: white;
   /*Applies to any text*/
 }
 
-/* line 151, ../sass/components/_base.scss */
+/* line 133, ../sass/components/_base.scss */
 #page_title {
   font-size: 30px;
   text-align: center;
   text-decoration: underline;
 }
 
-/* line 157, ../sass/components/_base.scss */
+/* line 139, ../sass/components/_base.scss */
 #page_container {
   padding: 15px;
 }
-/* line 160, ../sass/components/_base.scss */
+/* line 142, ../sass/components/_base.scss */
 #page_container img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
 }
-/* line 167, ../sass/components/_base.scss */
+/* line 149, ../sass/components/_base.scss */
 #page_container h2 {
   font-size: 25px;
 }
