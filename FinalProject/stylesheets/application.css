@@ -98,46 +98,52 @@ p {
   width: 67%;
   border-radius: 15px;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-width: 1400px) {
   /* line 110, ../sass/components/_base.scss */
   #wrap {
     /* iPhone, Android rules here */
-    width: 100%;
-    float: none;
+    margin: 0;
   }
 }
 
-/* line 124, ../sass/components/_base.scss */
+/* line 123, ../sass/components/_base.scss */
 main {
   background: #F5F5F5;
 }
 
-/* line 128, ../sass/components/_base.scss */
+/* line 127, ../sass/components/_base.scss */
 #footer {
   text-align: center;
   color: white;
   /*Applies to any text*/
 }
 
-/* line 133, ../sass/components/_base.scss */
+/* line 132, ../sass/components/_base.scss */
 #page_title {
   font-size: 30px;
   text-align: center;
   text-decoration: underline;
 }
 
-/* line 139, ../sass/components/_base.scss */
+/* line 138, ../sass/components/_base.scss */
 #page_container {
   padding: 15px;
 }
-/* line 142, ../sass/components/_base.scss */
+@media only screen and (max-width: 1400px) and (min-resolution: 192dpi) {
+  /* line 138, ../sass/components/_base.scss */
+  #page_container {
+    /* iPhone, Android rules here */
+    width: 100%;
+  }
+}
+/* line 146, ../sass/components/_base.scss */
 #page_container img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
 }
-/* line 149, ../sass/components/_base.scss */
+/* line 153, ../sass/components/_base.scss */
 #page_container h2 {
   font-size: 25px;
 }

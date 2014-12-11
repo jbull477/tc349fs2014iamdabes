@@ -114,10 +114,9 @@ p{
     width: 67%;
     border-radius: 15px;
 
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    @media only screen and (max-width: 1400px){
   /* iPhone, Android rules here */
-    width: 100%;
-    float: none;
+    margin: 0;
   }
 }
 
@@ -138,6 +137,11 @@ main {
 
 #page_container{
   padding: 15px;
+
+   @media only screen and (max-width: 1400px) and (min-resolution: 192dpi){
+  /* iPhone, Android rules here */
+    width: 100%;
+  }
 
   img{
   display: block;
