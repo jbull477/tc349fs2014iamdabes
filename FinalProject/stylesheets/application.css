@@ -1,9 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
-/* Large desktop */
 /* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 7, ../sass/components/_base.scss */
+  p {
+    font-size: 22px;
+  }
+}
 /* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  /* line 15, ../sass/components/_base.scss */
+  #wrap {
+    width: 100%;
+  }
+
+  /* line 18, ../sass/components/_base.scss */
+  p {
+    font-size: 22px;
+  }
+}
 /* Landscape phones and down */
-/* line 15, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 30, ../sass/components/_base.scss */
 body {
   background-color: #003300;
   color: #3A3A3A;
@@ -16,12 +32,12 @@ body {
   /* As IE ignores !important it will set width as 1000px; */
 }
 
-/* line 25, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 40, ../sass/components/_base.scss */
 nav {
   background-color: #006600;
   height: 40px;
 }
-/* line 30, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 45, ../sass/components/_base.scss */
 nav ul {
   font-family: Arial, Verdana;
   font-size: 18px;
@@ -29,13 +45,13 @@ nav ul {
   padding: 0;
   list-style: none;
 }
-/* line 38, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 53, ../sass/components/_base.scss */
 nav ul li {
   display: block;
   position: relative;
   float: left;
 }
-/* line 44, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 59, ../sass/components/_base.scss */
 nav ul li a {
   display: block;
   text-decoration: none;
@@ -49,52 +65,52 @@ nav ul li a {
   width: 115px;
   text-align: center;
 }
-/* line 57, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 72, ../sass/components/_base.scss */
 nav ul li a:hover {
   background: #197519;
 }
-/* line 67, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 82, ../sass/components/_base.scss */
 nav ul li ul li a {
   text-align: left;
   /* Top-level items are centered, but nested list items are left-aligned */
 }
-/* line 78, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 93, ../sass/components/_base.scss */
 nav li ul {
   display: none;
 }
-/* line 85, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 100, ../sass/components/_base.scss */
 nav li:hover ul {
   display: block;
   position: absolute;
   height: 30px;
 }
-/* line 92, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 107, ../sass/components/_base.scss */
 nav li:hover li {
   float: none;
   font-size: 11px;
 }
-/* line 97, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 112, ../sass/components/_base.scss */
 nav li:hover li a {
   background: #197519;
   height: 30px;
   /* Height of lower-level nav items is shorter than main level */
 }
-/* line 102, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 117, ../sass/components/_base.scss */
 nav li:hover li a:hover {
   background: #308330;
 }
 
-/* line 111, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 126, ../sass/components/_base.scss */
 br.clearLeft {
   clear: left;
 }
 
-/* line 115, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 130, ../sass/components/_base.scss */
 p {
   font-size: 15px;
 }
 
-/* line 119, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 134, ../sass/components/_base.scss */
 #wrap {
   margin: 10px auto;
   background: #006600;
@@ -103,49 +119,49 @@ p {
   border-radius: 15px;
 }
 
-/* line 127, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 142, ../sass/components/_base.scss */
 main {
   background: #F5F5F5;
 }
 
-/* line 131, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 146, ../sass/components/_base.scss */
 #footer {
   text-align: center;
   color: white;
   /*Applies to any text*/
 }
 
-/* line 136, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 151, ../sass/components/_base.scss */
 #page_title {
   font-size: 30px;
   text-align: center;
   text-decoration: underline;
 }
 
-/* line 142, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 157, ../sass/components/_base.scss */
 #page_container {
   padding: 15px;
 }
-/* line 145, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 160, ../sass/components/_base.scss */
 #page_container img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
 }
-/* line 152, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_base.scss */
+/* line 167, ../sass/components/_base.scss */
 #page_container h2 {
   font-size: 25px;
 }
 
-/* line 2, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_header.scss */
+/* line 2, ../sass/components/_header.scss */
 #header {
   background-color: #666;
   color: #FFF;
   border-radius: 15px;
 }
 
-/* line 9, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_header.scss */
+/* line 9, ../sass/components/_header.scss */
 #logo {
   font-size: 30px;
   line-height: 40px;
@@ -154,20 +170,20 @@ main {
   text-align: center;
 }
 
-/* line 18, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_header.scss */
+/* line 18, ../sass/components/_header.scss */
 #navWrap {
   height: 40px;
   z-index: 50;
 }
 
-/* line 24, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_header.scss */
+/* line 24, ../sass/components/_header.scss */
 #nav {
   background-color: #006600;
   height: 40px;
   z-index: 10;
   /*Puts the nav bar in front of the picture slides*/
 }
-/* line 30, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_header.scss */
+/* line 30, ../sass/components/_header.scss */
 #nav ul {
   font-family: Arial, Verdana;
   font-size: 20px;
@@ -178,7 +194,7 @@ main {
   /*Puts the nav bar in front of the picture slides*/
 }
 
-/* line 41, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_header.scss */
+/* line 41, ../sass/components/_header.scss */
 .bigNum {
   font-size: 20px;
   color: #000;
@@ -186,7 +202,7 @@ main {
   padding: 2px;
 }
 
-/* line 1, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 1, ../sass/components/_home.scss */
 .slides {
   padding: 0;
   width: 625px;
@@ -195,7 +211,7 @@ main {
   margin: 0 auto;
   position: relative;
 }
-/* line 10, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 10, ../sass/components/_home.scss */
 .slides * {
   user-select: none;
   -ms-user-select: none;
@@ -204,17 +220,17 @@ main {
   -webkit-user-select: none;
   -webkit-touch-callout: none;
 }
-/* line 19, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 19, ../sass/components/_home.scss */
 .slides input {
   display: none;
 }
 
-/* line 22, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 22, ../sass/components/_home.scss */
 .slide-container {
   display: block;
 }
 
-/* line 24, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 24, ../sass/components/_home.scss */
 .slide {
   top: 0;
   opacity: 0;
@@ -225,13 +241,13 @@ main {
   transform: skew(0);
   transition: all .7s ease-in-out;
 }
-/* line 36, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 36, ../sass/components/_home.scss */
 .slide img {
   width: 100%;
   height: 100%;
 }
 
-/* line 44, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 44, ../sass/components/_home.scss */
 .pic-nav label {
   width: 200px;
   height: 100%;
@@ -250,86 +266,86 @@ main {
   text-shadow: 0px 0px 15px #777777;
 }
 
-/* line 67, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 67, ../sass/components/_home.scss */
 #intro_info {
   text-align: center;
 }
 
-/* line 72, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 72, ../sass/components/_home.scss */
 #practice-schedule {
   text-align: center;
 }
 
-/* line 77, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 77, ../sass/components/_home.scss */
 .upcoming_events {
   margin-top: 20px;
   text-align: center;
 }
 
-/* line 84, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 84, ../sass/components/_home.scss */
 .photo_set {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 5px solid;
 }
 
-/* line 91, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 91, ../sass/components/_home.scss */
 .feed_container {
   padding-top: 15px;
   width: 100%;
   text-align: center;
 }
 
-/* line 98, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 98, ../sass/components/_home.scss */
 .facebook_feed {
   display: inline-block;
   padding-right: 4.5px;
 }
 
-/* line 104, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 104, ../sass/components/_home.scss */
 .twitter_feed {
   display: inline-block;
   padding-left: 4.5px;
 }
 
-/* line 110, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 110, ../sass/components/_home.scss */
 #index_video {
   text-align: center;
 }
 
-/* line 117, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 117, ../sass/components/_home.scss */
 #attention_text h2 {
   text-align: center;
 }
 
-/* line 122, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 122, ../sass/components/_home.scss */
 .slide:hover + .pic-nav label {
   opacity: 0.5;
 }
 
-/* line 124, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 124, ../sass/components/_home.scss */
 .pic-nav label:hover {
   opacity: 1;
 }
 
-/* line 126, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 126, ../sass/components/_home.scss */
 .pic-nav .next {
   right: 0;
 }
 
-/* line 128, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 128, ../sass/components/_home.scss */
 input:checked + .slide-container .slide {
   opacity: 1;
   transform: scale(1);
   transition: opacity 1s ease-in-out;
 }
 
-/* line 136, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 136, ../sass/components/_home.scss */
 input:checked + .slide-container .pic-nav label {
   display: block;
 }
 
-/* line 138, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 138, ../sass/components/_home.scss */
 .nav-dots {
   width: 100%;
   bottom: 9px;
@@ -339,7 +355,7 @@ input:checked + .slide-container .pic-nav label {
   text-align: center;
 }
 
-/* line 147, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 147, ../sass/components/_home.scss */
 .nav-dots .nav-dot {
   top: -5px;
   width: 11px;
@@ -351,13 +367,13 @@ input:checked + .slide-container .pic-nav label {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 158, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 158, ../sass/components/_home.scss */
 .nav-dots .nav-dot:hover {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 168, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_home.scss */
+/* line 168, ../sass/components/_home.scss */
 input#img-1:checked ~ .nav-dots label#img-dot-1,
 input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3,
@@ -367,27 +383,27 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
   background: rgba(0, 0, 0, 0.8);
 }
 
-/* line 1, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_meetTheTeam.scss */
+/* line 1, ../sass/components/_meetTheTeam.scss */
 .person {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 5px solid;
 }
-/* line 6, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_meetTheTeam.scss */
+/* line 6, ../sass/components/_meetTheTeam.scss */
 .person img {
   float: left;
 }
-/* line 10, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_meetTheTeam.scss */
+/* line 10, ../sass/components/_meetTheTeam.scss */
 .person h2 {
   text-align: center;
   text-decoration: underline;
 }
-/* line 15, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_meetTheTeam.scss */
+/* line 15, ../sass/components/_meetTheTeam.scss */
 .person p {
   text-align: center;
 }
 
-/* line 3, C:/Users/jbull_000/Documents/School/TC/TC 349/tc349fs2014iamdabes/FinalProject/sass/components/_manateeMonthlies.scss */
+/* line 3, ../sass/components/_manateeMonthlies.scss */
 #manatee_monthlies h1 {
   text-align: center;
   text-decoration: underline;
